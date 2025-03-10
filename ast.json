@@ -1,0 +1,42 @@
+[
+    {
+        "tipo": "Funcion",
+        "nombre": "main",
+        "parametros": [],
+        "cuerpo": [
+            {
+                "tipo": "Asignacion",
+                "tipo_dato": "int",
+                "nombre": "a",
+                "expresion": {
+                    "tipo": "Numero",
+                    "valor": 3
+                }
+            },
+            {
+                "tipo": "Asignacion",
+                "tipo_dato": "int",
+                "nombre": "b",
+                "expresion": {
+                    "tipo": "Numero",
+                    "valor": 5
+                }
+            },
+            {
+                "tipo": "Retorno",
+                "expresion": {
+                    "tipo": "Operacion",
+                    "izquierda": {
+                        "tipo": "Identificador",
+                        "nombre": "a"
+                    },
+                    "operador": "+",
+                    "derecha": {
+                        "tipo": "Identificador",
+                        "nombre": "b"
+                    }
+                }
+            }
+        ]
+    }
+]
